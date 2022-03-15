@@ -16,9 +16,9 @@ namespace SprayLog.Data.Models
 
         public int Batch { get; set; }
 
-        //[Required]
-        //public int PlotId { get; set; }
-        //public Plot Plot { get; set; }
+        [Required]
+        public int PesticideSolutionTypeId { get; set; }
+        public PesticideSolutionType SolutionType { get; set; }
 
         //public IEnumerable<Plot> Plots { get; set; } = new List<Plot>();
     }

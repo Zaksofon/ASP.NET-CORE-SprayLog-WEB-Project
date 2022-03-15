@@ -16,5 +16,7 @@ namespace SprayLog.Data
 
         public DbSet<Plot> Plots { get; init; }
         public DbSet<Crop> Crops { get; init; }
+        public DbSet<PesticideSolutionType> PesticideSolutionTypes { get; init; }
+
     }
 }
